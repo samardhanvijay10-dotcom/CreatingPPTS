@@ -561,7 +561,7 @@ export default function App() {
           </div>
           <div>
             <h1 className="text-lg font-bold tracking-wide text-white flex items-center gap-2">
-              LUMIÈRE <span className="text-xs px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-400 font-mono border border-indigo-500/30">PPT STUDIO</span>
+              DOCUCRAFT <span className="text-xs px-2 py-0.5 rounded-full bg-indigo-500/20 text-indigo-400 font-mono border border-indigo-500/30">PPT STUDIO</span>
             </h1>
             <p className="text-xs text-slate-400">Next-Generation Aesthetic Presentation Creator</p>
           </div>
@@ -1000,7 +1000,7 @@ export default function App() {
                 color: activeTheme.textMuted
               }}
             >
-              <span>{activeSlide.footerText || 'Lumière Presentation System'}</span>
+              <span>{activeSlide.footerText || 'DocuCraft Presentation System'}</span>
               <span className="flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full animate-ping" style={{ backgroundColor: activeTheme.accent }}></span>
                 {activeTheme.name}
@@ -1432,7 +1432,7 @@ export default function App() {
             {/* Slide Footer */}
             <div className="flex items-center justify-between text-sm opacity-60">
               <span>{activeSlide.footerText}</span>
-              <span>Lumière Deck</span>
+              <span>DocuCraft Deck</span>
             </div>
           </div>
 
